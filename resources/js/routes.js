@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+import NavBar from "./components/NavBar";
 
 export default {
     mode: "history",
@@ -13,6 +14,11 @@ export default {
             path: "/",
             component: Home,
             name: "Home"
+        },
+        {
+            path: "/navbar",
+            component: NavBar,
+            name: "Navbar"
         }
     ]
 };
